@@ -40,7 +40,7 @@
 | 📅 **[BookingBot](https://github.com/RodjerWilko/booking-bot)** | Онлайн-запись клиентов с напоминаниями | [@RWdev_bookingBot](https://t.me/RWdev_bookingBot) | aiogram 3 · APScheduler · PostgreSQL |
 | 🧠 **[AI Assistant](https://github.com/RodjerWilko/ai-assistant-bot)** | AI-ассистент с памятью диалога | [@RWdev_AIassisBot](https://t.me/RWdev_AIassisBot) | aiogram 3 · OpenRouter · PostgreSQL |
 | ✅ **[TaskTracker](https://github.com/RodjerWilko/task-tracker-bot)** | Трекер задач с дедлайнами и отчётами | [@RWdev_TaskBot](https://t.me/RWdev_TaskBot) | aiogram 3 · APScheduler · PostgreSQL |
-| 🎯 **[LeadFunnelBot](https://github.com/RodjerWilko/LeadFunnelBot)** | Воронка продаж с автоворонкой и рассылками | — | aiogram 3 · Alembic · PostgreSQL |
+| 🎯 **[LeadFunnelBot](https://github.com/RodjerWilko/LeadFunnelBot)** | Воронка продаж с автоворонкой и рассылками | [@RWdev_LeadFunnelBot](https://t.me/RWdev_LeadFunnelBot) | aiogram 3 · Alembic · PostgreSQL |
 
 > Все боты работают в **одном сообщении** (single-message UI) — без спама в чат.
 
