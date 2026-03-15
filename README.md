@@ -11,9 +11,9 @@
 ### 🤖 Что делаю
 
 - **Telegram-боты для бизнеса** — магазины, запись клиентов, воронки продаж
-- **AI-боты** — интеграция с ChatGPT, Gemini, кастомные ассистенты
-- **Автоматизация** — парсеры, уведомления, CRM-интеграции, отчёты
-- **Доработка** — фиксы, новые фичи в существующих ботах
+- **AI-боты** — интеграция с ChatGPT, Llama, Claude (OpenRouter)
+- **Автоматизация** — парсеры, уведомления, CRM-интеграции, рассылки
+- **Mini App** — веб-приложения внутри Telegram (React + FastAPI)
 
 ---
 
@@ -25,20 +25,24 @@
 | Фреймворк | aiogram 3.x, FastAPI |
 | Базы данных | PostgreSQL, Redis, SQLite |
 | ORM / Миграции | SQLAlchemy 2.0, Alembic |
+| AI | OpenRouter (Llama, GPT, Claude) |
 | Планировщик | APScheduler |
-| Деплой | Docker, docker-compose, Railway, VPS |
+| Деплой | Docker, docker-compose, VPS |
 | Версионность | Git, GitHub |
 
 ---
 
-### 📂 Проекты
+### 📂 Проекты — все живые, можно потестить
 
-| Проект | Описание | Стек |
-|--------|----------|------|
-| 🛒 **ShopBot** | Магазин в Telegram с каталогом, корзиной и админкой | aiogram 3 · PostgreSQL · Docker |
-| 📅 **BookingBot** | Бот записи клиентов с напоминаниями | aiogram 3 · APScheduler · PostgreSQL |
-| 🧠 **AI Assistant** | Чат-бот с GPT, история диалогов, лимиты | aiogram 3 · OpenAI API · Redis |
-| ✅ **TaskTracker** | Трекер задач с дедлайнами и еженедельными отчётами | aiogram 3 · APScheduler · PostgreSQL |
+| Проект | Описание | Бот | Стек |
+|--------|----------|-----|------|
+| 🛒 **[ShopBot](https://github.com/RodjerWilko/shop-bot)** | Магазин с каталогом, корзиной и админкой | [@RWdev_ShopBot](https://t.me/RWdev_ShopBot) | aiogram 3 · PostgreSQL · Docker |
+| 📅 **[BookingBot](https://github.com/RodjerWilko/booking-bot)** | Онлайн-запись клиентов с напоминаниями | [@RWdev_bookingBot](https://t.me/RWdev_bookingBot) | aiogram 3 · APScheduler · PostgreSQL |
+| 🧠 **[AI Assistant](https://github.com/RodjerWilko/ai-assistant-bot)** | AI-ассистент с памятью диалога | [@RWdev_AIassisBot](https://t.me/RWdev_AIassisBot) | aiogram 3 · OpenRouter · PostgreSQL |
+| ✅ **[TaskTracker](https://github.com/RodjerWilko/task-tracker-bot)** | Трекер задач с дедлайнами и отчётами | [@RWdev_TaskBot](https://t.me/RWdev_TaskBot) | aiogram 3 · APScheduler · PostgreSQL |
+| 🎯 **[LeadFunnelBot](https://github.com/RodjerWilko/LeadFunnelBot)** | Воронка продаж с автоворонкой и рассылками | — | aiogram 3 · Alembic · PostgreSQL |
+
+> Все боты работают в **одном сообщении** (single-message UI) — без спама в чат.
 
 ---
 
